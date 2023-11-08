@@ -1,0 +1,33 @@
+.containerBig {
+    padding-left: 40px;
+    cursor: pointer;
+  }
+  
+  .posterBig {
+    width: 220px;
+    height: 220px;
+    border-radius: 20px; /* Menghapus duplikat properti border-radius */
+  }
+  
+  .descriptionBig {
+    display: flex;
+    flex-direction: column; /* Mengubah flex-direction ke column untuk tata letak yang sesuai */
+    align-items: left;
+  }
+  
+  #title {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Verdana;
+    margin-bottom: 5px; /* Menambahkan margin-top untuk jarak dengan genre */
+  }
+  
+  #genre {
+    color: grey;
+    font-family: Verdana;
+    font-weight: 500;
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  
